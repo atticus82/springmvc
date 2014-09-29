@@ -2,7 +2,7 @@
 <%@page session="true"%>
 <html>
 <head>
-<link href="css/login.css" rel="stylesheet" type="text/css" />
+<link href="/resources/css/login.css" rel="stylesheet" type="text/css" />
 <title>Login Page</title>
 </head>
 <body onload='document.loginForm.username.focus();'>

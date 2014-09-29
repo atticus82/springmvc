@@ -17,6 +17,12 @@
 	<context:component-scan base-package="amm.spring.web.controller" />
 	
 	 <mvc:annotation-driven/> 
+	 
+	 
+	   <mvc:resources mapping="/resources/img/**"  location="/resources/img/" />
+    <mvc:resources mapping="/resources/js/**"   location="/resources/js/" />
+    <mvc:resources mapping="/resources/css/**"  location="/resources/css/" />
+    <mvc:resources mapping="/resources/html/**" location="/resources/html/"/>
 	
 <!-- 	<context:include-filter type="annotation"  -->
 <!--     expression="org.springframework.web.bind.annotation.ControllerAdvice" /> -->
