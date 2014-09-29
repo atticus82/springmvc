@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="springmvc-web">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/webapp"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="spring-business-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spring-business/spring-business">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-persistence-0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spring-persistence/spring-persistence">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-common-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spring-common/spring-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="springmvc-web"/>
+        <property name="java-output-path" value="/springmvc-web/target/classes"/>
+    </wb-module>
+</project-modules>
